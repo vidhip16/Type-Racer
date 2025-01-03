@@ -13,11 +13,3 @@ function calculateWPM(startTime, endTime, text) {
 
     return Math.round(wordsTyped / timeTaken); // Calculate WPM
 }
-
-
-
-//function calculateWPM(startTime, endTime, text) {
-    //const wordsTyped = text.trim().split(/\s+/).length;
-    //onst timeTaken = (endTime - startTime) / 1000 / 60; // Convert milliseconds to minutes
-
-    //return Math.round(wordsTyped / timeTaken);}
